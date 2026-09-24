@@ -65,9 +65,20 @@ button {
     margin-top: 10px;
 }
 
+.fordeler {
+    background-color: white;
+    color: seagreen;
+    padding: 75px;
+    text-align: center;
+}
+
 .kolonner {
     display: flex;
 }
 
-
+footer {
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+}
 
