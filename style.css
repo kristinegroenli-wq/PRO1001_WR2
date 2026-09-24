@@ -11,26 +11,42 @@ body {
 }
 
 header {
-    background-color: #486b3c;
+    background-color: seagreen;
     color: white;
     padding: 30px 0;
     text-align: center;
 }
 
-img {
+.bilde {
     width: 900px;
-    border: 3px seagreen;
     display: block;
     margin: 20px auto;
 }
 
-input[type="submit"]{
-    margin-top: 10px;
-    padding 12px 17px
-    background-color: beige;
-    color: #ecfeff;
-    text-transform: uppercase;
-    border-radius: 5px;
-    front-weight: bold;
-    cursor: pointer
+.kolonner {
+    display: flex;
 }
+
+.intro {
+    margin-top: 30px;
+    padding: 15px;
+    border: 2px seagreen;
+    border-radius: 10px;
+}
+
+.tjenester {
+    margin-top: 30px;
+    padding: 15px;
+    border: 2px seagreen;
+    border-radius: 10px;
+}
+
+.Innlevering {
+    margin-top: 30px;
+    padding: 15px;
+    border: 2px seagreen;
+    border-radius: 10px;
+}
+
+
+
