@@ -23,3 +23,14 @@ img {
     display: block;
     margin: 20px auto;
 }
+
+input[type="submit"]{
+    margin-top: 10px;
+    padding 12px 17px
+    background-color: beige;
+    color: #ecfeff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    front-weight: bold;
+    cursor: pointer
+}
