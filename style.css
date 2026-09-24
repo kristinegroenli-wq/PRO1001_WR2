@@ -1,10 +1,11 @@
 main {
     width: 600px;
     padding: 25px;
+    margin: 0 auto;
 }
 
 body {
-    margin: 0;
+
     font-size: 21px;
     font-family: Arial, sans-serif;
     color:black;
