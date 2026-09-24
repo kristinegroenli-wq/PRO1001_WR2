@@ -1,0 +1,25 @@
+main {
+    background-color: burlywood;
+    width: 600px;
+    padding: 25px;
+}
+
+body {
+    margin: 0;
+    font-size: 21px;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: beige;
+    color: black;
+    padding: 30px 0;
+    text-align: center;
+}
+
+img {
+    width: 500px;
+    border: 3px seagreen;
+    display: block;
+    margin: 20px auto;
+}
