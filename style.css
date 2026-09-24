@@ -76,6 +76,20 @@ button {
     display: flex;
 }
 
+.kolonne1 {
+    margin: 0 40px;
+}
+
+.kolonne2 {
+margin: 0 40px;
+
+}
+
+.kolonne3 {
+margin: 0 40px;
+
+}
+
 footer {
     margin-top: 30px;
     text-align: center;
