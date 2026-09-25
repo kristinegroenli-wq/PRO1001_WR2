@@ -1,7 +1,34 @@
 main {
     width: 600px;
     padding: 25px;
-    margin: 0 auto;
+    
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+
+}
+
+nav ul {
+    list-style-type: disc;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color:white;
+    padding: 5 px 10px;
+}
+
+nav a:hover {
+    background-color: darkgray;
 }
 
 body {
@@ -9,13 +36,21 @@ body {
     font-size: 21px;
     font-family: Arial, sans-serif;
     color:black;
+    margin: 0;
 }
 
 header {
+    
     background-color: seagreen;
     color: white;
     padding: 30px 0;
     text-align: center;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 48px;
+   
 }
 
 .bilde {
@@ -28,17 +63,14 @@ header {
 
 .intro {
     margin-top: 30px;
-    padding: 15px;
-    border: 2px solid seagreen;
-    border-radius: 10px;
+    padding: 5px;
     width: 900px;
 }
 
 .tjenester {
     margin-top: 30px;
     padding: 15px;
-    border: 2px solid seagreen;
-    border-radius: 10px;
+
 }
 
 .Innlevering {
@@ -72,10 +104,12 @@ button {
     color: seagreen;
     text-align: center;
     padding: 15px;
+    
 }
 
 .kolonner {
     display: flex;
+    margin: 0 auto;
 }
 
 .kolonne1 {
@@ -98,6 +132,8 @@ width: 400px;
 footer {
     margin-top: 30px;
     text-align: center;
-    padding: 200px;
+    padding: 50px;
+    background-color: seagreen;
+    color: white;
 }
 
